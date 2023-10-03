@@ -1,2 +1,7 @@
 .streamcli/*
 !.streamcli/.zshrc
+
+!.streamcli/.config
+.streamcli/.config/*
+!.streamcli/.config/nvim
+

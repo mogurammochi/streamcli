@@ -1,0 +1,17 @@
+{
+  "[css][markdown][javascript][javascriptreact][typescript][typescriptreact]": {
+    "coc.preferences.formatOnSave": true
+  },
+  "[rust]": {
+    "coc.preferences.formatOnSave": true,
+  },
+  "[go]": {
+    "coc.preferences.formatOnSave": true,
+  },
+  "workspace.ignoredFiletypes": ["neoterm"],
+  "git.addedSign.hlGroup": "GitGutterAdd",
+  "git.changedSign.hlGroup": "GitGutterChange",
+  "git.removedSign.hlGroup": "GitGutterDelete",
+  "git.topRemovedSign.hlGroup": "GitGutterDelete",
+  "git.changeRemovedSign.hlGroup": "GitGutterChangeDelete"
+}

@@ -103,3 +103,9 @@ source $ZSH/oh-my-zsh.sh
 # Example aliases
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
+
+export PATH="$HOME/.anyenv/bin:$PATH"
+if which anyenv >/dev/null 2>&1; then
+  eval "$(anyenv init -)"
+fi
+

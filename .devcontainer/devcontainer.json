@@ -3,5 +3,12 @@
   "image": "ghcr.io/mogurammochi/streamcli:latest",
   "features": {
       "ghcr.io/devcontainers/features/sshd:1": {}
+  },
+  "customizations": {
+    "vscode": {
+      "extensions": [
+        "eamodio.gitlens"
+      ]
+    }
   }
 }
