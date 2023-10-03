@@ -10,7 +10,7 @@ podman-login:
 .PHONY: build
 build:
 	@echo build podman image
-	podman build . -t ghcr.io/mogurammochi/streamcli
+	podman build . -t ghcr.io/mogurammochi/streamcli --arch amd64
 
 .PHONY: push
 push:

@@ -1,4 +1,7 @@
 {
   "name": "StreamCli",
-  "image": "ghcr.io/mogurammochi/streamcli:latest"
+  "image": "ghcr.io/mogurammochi/streamcli:latest",
+  "features": {
+      "ghcr.io/devcontainers/features/sshd:1": {}
+  }
 }
