@@ -1,0 +1,4 @@
+{
+  "name": "StreamCli",
+  "image": "ghcr.io/mogurammochi/streamcli:latest"
+}

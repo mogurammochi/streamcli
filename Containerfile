@@ -14,5 +14,9 @@ RUN apt update && apt install -y \
   build-essential \
   direnv
 
+RUN /bin/sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
+
+COPY .streamcli/.zshrc /root/.zshrc
+
 WORKDIR /projects
 
