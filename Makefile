@@ -21,6 +21,7 @@ push:
 init:
 	@echo Initialize container
 	podman run \
+		--arch amd64 \
 		--mount type=bind,source="$$(pwd)/.streamcli",target=/root \
 		ghcr.io/mogurammochi/streamcli /bin/sh -c "$$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
 
@@ -33,6 +34,7 @@ link:
 run:
 	@echo run container current directory
 	podman run -it --rm \
+		--arch amd64 \
 		--mount type=bind,source="$(PWD)",target=/projects \
 		--mount type=bind,source="$$(pwd)/.streamcli",target=/root \
 		ghcr.io/mogurammochi/streamcli /bin/zsh

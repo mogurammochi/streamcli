@@ -74,7 +74,6 @@ plugins=(
   git
   fzf
   ripgrep
-  zsh-direnv
 )
 
 source $ZSH/oh-my-zsh.sh

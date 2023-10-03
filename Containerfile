@@ -15,5 +15,5 @@ RUN /bin/sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/m
 
 COPY .streamcli/.zshrc /root/.zshrc
 
-ENTRYPOINT ["/bin/zsh"]
+RUN chsh -s /bin/zsh
 
